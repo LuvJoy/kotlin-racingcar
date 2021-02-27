@@ -4,19 +4,19 @@ import java.lang.IllegalArgumentException
 
 class Operator {
 
-    fun plus(number1: Int, number2: Int): Int {
+    private fun plus(number1: Int, number2: Int): Int {
         return number1 + number2
     }
 
-    fun minus(number1: Int, number2: Int): Int {
+    private fun minus(number1: Int, number2: Int): Int {
         return number1 - number2
     }
 
-    fun multiply(number1: Int, number2: Int): Int {
+    private fun multiply(number1: Int, number2: Int): Int {
         return number1 * number2
     }
 
-    fun divide(number1: Int, number2: Int): Int {
+    private fun divide(number1: Int, number2: Int): Int {
         return number1 / number2
     }
 

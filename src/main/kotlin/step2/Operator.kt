@@ -35,7 +35,7 @@ class Operator {
                 return divide(number1, number2)
             }
             else -> {
-                throw IllegalArgumentException()
+                throw IllegalArgumentException("계산식에 올바르지 않은 사칙연상이 있습니다.")
             }
         }
     }
